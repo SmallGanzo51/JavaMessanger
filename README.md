@@ -67,7 +67,7 @@ java -jar app/build/libs/MessengerClient-1.0.jar
 2)Running on Different Machines:
 Because the database and logs are created automatically, the application can be run on any machine without additional setup.
 
-Author: SmallGanzo
+Author: SmallGanzo51
 
 Contact: egorov2006g@gmail.com
 

@@ -15,6 +15,8 @@ Software used:
 - SQLite JDBC (`org.xerial:sqlite-jdbc`)
 - Log4j2 (`org.apache.logging.log4j:log4j-api` and `log4j-core`)
 
+!!!You can see the documentation about classes and methods used in the code [here]: https://smallganzo51.github.io/JavaMessanger/
+
 !!!SETUP INSTRUCTION!!!
 1. Clone the repository
 ```bash

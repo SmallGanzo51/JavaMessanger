@@ -20,34 +20,42 @@ Software used:
 ```bash
 git clone <repository-url>
 cd Gradle_messanger
+```
 2.Build the Application
 #Build server JAR
+```bash
 ./gradlew serverJar
+```
 #Build client JAR
+```bash
 ./gradlew clientJar
+```
 The JARs will be created in app/build/libs/
 3.Run the application 
 #Run Server
+```bash
 java -jar app/build/libs/MessengerServer-1.0.jar
+```
 #Run Client
+```bash
 java -jar app/build/libs/MessengerClient-1.0.jar
+```
 
 !The client can be run multiple times to simulate multiple users connecting to the server.
 
-Notes
-Database:
-The SQLite database (database.db) is automatically created in the project root when the server starts.
-Tables Users and Messages are created automatically if they do not exist.
-Logging:
-Logs are written to both the console and logs/messenger.log.
-Make sure the logs/ folder exists, or it will be created automatically.
-Dependencies:
-All required libraries are managed through Gradle. No manual download is needed.
-Running on Different Machines:
+!Notes
+-Database:
+1)The SQLite database (database.db) is automatically created in the project root when the server starts.
+2)Tables Users and Messages are created automatically if they do not exist.
+-Logging:
+1)Logs are written to both the console and logs/messenger.log.
+2)Make sure the logs/ folder exists, or it will be created automatically.
+-Dependencies:
+1)All required libraries are managed through Gradle. No manual download is needed.
+2)Running on Different Machines:
 Because the database and logs are created automatically, the application can be run on any machine without additional setup.
 
-Author
-SmallGanzo
+Author: SmallGanzo
 Contact: egorov2006g@gmail.com
 
 

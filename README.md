@@ -22,6 +22,7 @@ git clone <repository-url>
 cd Gradle_messanger
 ```
 2.Build the Application
+
 #Build server JAR
 ```bash
 ./gradlew serverJar
@@ -31,6 +32,7 @@ cd Gradle_messanger
 ./gradlew clientJar
 ```
 The JARs will be created in app/build/libs/
+
 3.Run the application 
 #Run Server
 ```bash

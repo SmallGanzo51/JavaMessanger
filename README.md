@@ -21,7 +21,7 @@ Software used:
 1. Clone the repository
 ```bash
 git clone <repository-url>
-cd Gradle_messanger
+cd JavaMessanger
 ```
 2.Build the Application
 
